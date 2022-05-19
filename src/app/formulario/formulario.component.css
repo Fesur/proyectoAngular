@@ -1,0 +1,27 @@
+.h2{
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	font-family: poppins;
+}
+div{
+	text-align: center;
+	font-family: poppins;
+	background: #994C00;
+}
+form{
+	text-align: inherit;
+	font-size: 60px;
+	color: darkorange;
+	font-family: poppins;
+}
+form input{
+	font-size: 60px;
+	width: 500px;
+	height: 60px;
+}
+form button{
+	width: 200px;
+	height: 60px;
+	font-size: 20px;
+}

@@ -1,0 +1,48 @@
+.banner-text{
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 18% 30%;
+	text-align: center;
+
+}
+.banner-text h1{
+	color: white;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.banner-text span{
+	color: #CCCC00;
+}
+.banner-text p{
+	color: whitesmoke;
+	font-size: 30px;
+	line-height: 1.9;
+}
+.banner-text a{
+	border: 1px solid #fff;
+	color: #fff;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+*{
+	margin: 0;
+	padding: 0;
+
+
+
+}
+body{
+		font-family: poppins;
+		background: url(/assets/2.jpg);
+		background-size: cover;
+
+
+}
+.header-area{
+	background: url(/assets/1.jpg);
+
+}

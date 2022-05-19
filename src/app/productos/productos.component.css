@@ -1,0 +1,53 @@
+#carrusel {
+    float:left;
+    width:600px;
+    overflow:hidden;
+    height:203px;
+    position:relative;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+body{
+    background-color: #C3780B;
+}
+.carrusel {
+    width:8000px;
+    left:0px;
+    position:absolute;
+    z-index:0;
+}
+ 
+.carrusel>div {
+    float: left;
+    height: 200px;
+    margin-right: 5px;
+    width: 200px;
+    text-align:center;
+}
+ 
+.carrusel img {
+    cursor:pointer;
+}
+ 
+.product {
+    border:#CCCCCC 1px solid;
+}
+
+
+
+.carrusel .product .button{
+    margin-top: 30px;
+}
+.carrusel .product .button a{
+    background-color: #3d3d3d;
+    padding:12px 40px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+.carrusel .product .button a:hover{
+    background-color: #a52a2a;
+    color:#fff;
+}
